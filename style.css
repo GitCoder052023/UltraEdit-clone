@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  overflow-x: hidden;
+}
+
+img {
+  margin-right: 550px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  height: 50px;
+  padding: 15px;
+  width: 100vw;
+  justify-content: flex-end;
+  background-color: transparent;
+}
+
+li {
+  padding: 17px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  ;
+  font-weight: 400;
+  color: #222222;
+  text-decoration: none;
+}
+
+li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+svg {
+  margin-right: 65px;
+  margin-top: 15px;
+}
+
+svg:hover {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  margin-top: 55px;
+  margin-bottom: 35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0px 0px 0px 10px;
+  color: #222222;
+}
+
+.main-content {
+  font-weight: bolder;
+}
+
+.sub-content {
+  display: flex;
+  width: 950px;
+  margin-left: 181px;
+  justify-content: center;
+  font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  padding: 0px 0px 0px 10px;
+}
+
+.second-sub-content {
+  display: flex;
+  width: 950px;
+  margin-left: 181px;
+  justify-content: center;
+  font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  padding: 0px 0px 0px 10px;
+
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+
+}
+
+.download-button {
+  color: #ffffff;
+  font: 14px "Segoe UI";
+  background-color: #00b6d1;
+  border-width: 0px !important;
+  border-radius: 5px;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 12px 20px;
+}
+
+.download-button:hover {
+  background-color: #067e91;
+  cursor: pointer;
+}
+
+.meta-content {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.meta-data {
+  display: flex;
+  margin-top: 122px;
+  color: #222222;
+  font: 20px "Segoe UI";
+  padding: 0px 0px 0px 10px;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+.logo-image {
+  display: inline-block;
+  height: 70px;
+  margin-top: 108px;
+  margin-left: 182px;
+  margin-right: 8px;
+  margin-bottom: 110px;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #222222;
+  color: #ffffff;
+  padding: 60px 0;
+  width: 100vw;
+  height: 398px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.newsletter-signup {
+  text-align: center;
+}
+
+.newsletter-signup h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.newsletter-signup p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.email-field {
+  display: flex;
+  align-items: center;
+}
+
+.email-field input[type="email"] {
+  background-color: #f2f2f2;
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.email-field button[type="submit"] {
+  background-color: #00b6d1;
+  color: #ffffff;
+  padding: 15px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.email-field button[type="submit"]:hover {
+  background-color: #067e91;
+}
+
+
+.info {
+  padding: 60px 0;
+  width: 100vw;
+}
+
+.footer-heading1 {
+  color: #ffffff;
+  font: 24px "Segoe UI";
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.EXE {
+  color: #ffffff;
+  font: 15px "Segoe UI";
+  margin-bottom: 20px;
+}
+
+.MSI {
+  color: #ffffff;
+  font: 15px "Segoe UI";
+  margin-bottom: 20px;
+}
+
+.footer-heading-2 {
+  color: #ffffff;
+  font: 24px "Segoe UI";
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+
+table {
+  width: 100%;
+  /* Make the table stretch the full width */
+  background-color: #fff;
+  /* Set the background color */
+  color: #222222;
+  /* Set the text color */
+  border-collapse: collapse;
+  margin-top: 40px;
+  /* Remove borders between cells */
+}
+
+th,
+td {
+  padding: 10px 15px;
+  /* Add padding to cells */
+  border: none;
+  /* Remove borders from cells */
+}
+
+td:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+th {
+  text-align: left;
+  /* Align table headers to the left */
+  font-weight: bold;
+  /* Make table headers bold */
+}
+
+a {
+  color: #222222;
+  /* Set the link color */
+  text-decoration: none;
+  /* Remove underline from links */
+}
+
+a:hover {
+  text-decoration: underline;
+  /* Add underline on hover */
+  cursor: pointer;
+  /* Change cursor to pointer on hover */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fff;
+  /* Add a gray background color to even rows */
+}
+
+.end {
+  display: flex;
+  width: 100vw;
+  justify-content: flex-start;
+  margin-top: 25px;
+}
+
+.end-logos {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 700px;
+  margin-top: 100px;
+}
+
+.X {
+  transition: all 0.2s ease-in-out;
+}
+
+.X:hover {
+  transform: scale(1.1);
+
+}
+
+.github {
+  transition: all 0.2s ease-in-out;
+}
+
+.github:hover {
+  transform: scale(1.1);
+
+}
+
+.yt {
+  transition: all 0.2s ease-in-out;
+}
+
+.yt:hover {
+  transform: scale(1.1);
+
+}
+
+.facebook {
+  transition: all 0.2s ease-in-out;
+}
+
+.facebook:hover {
+  transform: scale(1.1);
+
+}
+
+.insta {
+  transition: all 0.2s ease-in-out;
+}
+
+.insta:hover {
+  transform: scale(1.1);
+
+}
+
+.linkdin {
+  transition: all 0.2s ease-in-out;
+}
+
+.linkdin:hover {
+  transform: scale(1.1);
+
+}
+
+.reddit {
+  transition: all 0.2s ease-in-out;
+}
+
+.reddit:hover {
+  transform: scale(1.1);
+
+}
